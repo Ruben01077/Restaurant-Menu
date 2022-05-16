@@ -1,0 +1,169 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    text-align: center;
+  
+}
+
+h1,
+h2 {
+    color: darkred;
+}
+
+h3, 
+p,
+li {
+    color: green;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+main {
+    margin: 0 20%;
+}
+
+nav {
+    background-color: beige;
+    padding: 20px;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+nav li {
+    display: inline;
+    padding-inline: 50px;
+   
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.6em;
+    color: green;
+    margin-right: 25px;
+    transition: 0.3s;
+
+
+}
+
+nav a:hover {
+
+   
+    opacity: 0.7; 
+    padding-inline: 20px;  
+    
+
+}
+
+    nav a:active {
+    
+        opacity: 0.2;
+        text-shadow: 5px, 5px 5px black; }
+
+#banner {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+#banner img {
+    width: 60%;
+    height: auto;
+}
+
+.service {
+    display: inline-block;
+    background-color: white;
+    border: 5px solid green;
+    border-radius: 5px;
+    color: darkred;
+    font-size: 2em;
+    padding: 20px;
+    margin: 10px;
+}
+
+table {
+    border: 3px solid black;
+    width: 100%;
+}
+  
+td,
+th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+
+nav ul {
+
+text-align: center;
+font-size: 30px;
+cursor: pointer;
+display: inline;
+
+
+
+
+}
+
+
+#bannerImage {
+
+height: 300px;
+width: 600px;
+
+
+}
+
+#divBannerImage {
+
+background-color: white;
+
+
+
+}
+
+ th , td {
+
+    width: 100px;
+   
+
+}
+
+#mainTaible{
+
+margin-bottom: 150px;
+
+}
+
+#logo {
+
+    height: 100px;
+    width: auto;
+    transform:translate(  -150%, -150%);
+   
+
+}
+
+#aboutPictures{
+
+width: 800px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 25px;
+
+
+
+
+}
